@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/save_action"
+         android:title="@string/enregistrer"
+        android:icon="@drawable/iconssave"
+
+        />
+
+    <item
+        android:id="@+id/dash_board"
+        android:title="@string/dashboard"
+        />
+
+    <item
+        android:id="@+id/Other_action"
+        android:title="Other"
+        app:showAsAction="collapseActionView"
+        />
+
+
+</menu>
+

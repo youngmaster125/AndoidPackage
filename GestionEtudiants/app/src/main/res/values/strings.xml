@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Gestion Etudiant</string>
+    <string name="entrer_nom">entrer nom</string>
+    <string name="entrer_age">entrer age</string>
+    <string name="entrer_prenom">entrer prenom</string>
+    <string name="modifier_l_etudiant">Modifier l\'etudiant</string>
+    <string name="classe">Classe</string>
+    <string name="edit">Edit</string>
+    <string name="delete">delete</string>
+    <string name="enregistrer">Enregistrer</string>
+    <string name="affiche_bar">\t\tid\t\tPrenom\t\tNom\t\tAge\t\tSexe\t\tClasse\t\tDate Inscription</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="title">Title</string>
+    <string name="nb_etudiant">Nombre etudiant total</string>
+    <string name="date_inscription">Select Date inscription</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="etudiant_id">Rechercher Etudiant par id</string>
+</resources>
