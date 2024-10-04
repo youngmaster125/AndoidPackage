@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    
+    <data>
+        <variable
+            name="contact"
+            type="com.example.contactmanager.entities.Contact" />
+        
+        <variable
+            name="clickHander"
+            type="com.example.contactmanager.entities.AddNewContactHandler" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".AddNewContactActivity">
+
+        
+
+        <EditText
+            android:id="@+id/editName"
+            android:text="@={contact.name}"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="308dp"
+            android:hint="Enter your name"
+            android:inputType="text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editEmail"
+            android:text="@={contact.email}"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="43dp"
+            android:hint="Enter your email"
+            android:inputType="textEmailAddress"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editName" />
+
+        <Button
+            android:onClick="@{clickHander::onSubmitClicked}"
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:layout_marginStart="143dp"
+            android:layout_marginTop="68dp"
+            app:layout_constraintStart_toStartOf="@+id/editEmail"
+            app:layout_constraintTop_toBottomOf="@+id/editEmail" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
