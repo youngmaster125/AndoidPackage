@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "923684118076",
+    "firebase_url": "https://contactfirebase-9bd9c-default-rtdb.firebaseio.com",
+    "project_id": "contactfirebase-9bd9c",
+    "storage_bucket": "contactfirebase-9bd9c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:923684118076:android:ed29ac4f9122b768bead39",
+        "android_client_info": {
+          "package_name": "com.example.contactfirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTPy5mqVfNbV9JYjlyLfoDHRW5uXYoZO0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
