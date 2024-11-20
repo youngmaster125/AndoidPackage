@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:background="#EDF0FF"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/arrowback"
+                android:padding="15dp"
+                android:layout_centerVertical="true"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bell"
+                android:padding="15dp"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Food &amp; Delivery"
+            android:textSize="30sp"
+            android:textColor="#365EFF"
+            android:fontFamily="sans-serif-medium"
+            android:textAllCaps="true"
+            android:padding="10sp"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="190dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="#FFFFFF"
+                android:layout_margin="20dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chicken Hamburger"
+                    android:textSize="25sp"
+                    android:fontFamily="sans-serif-light"
+                    android:padding="25dp"/>
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fresh hamburger with chicken, salad, tomatoes."
+                    android:textAlignment="textStart"
+                    android:background="#00000000"
+                    android:padding="14dp"
+                    android:layout_alignParentBottom="true"
+                    android:gravity="start" />
+
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/food1"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="190dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="#FFFFFF"
+                android:layout_margin="20dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dragon Fruits Salad"
+                    android:textSize="25sp"
+                    android:fontFamily="sans-serif-light"
+                    android:padding="25dp"/>
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="A bit of avocado salad and some spinach stalks."
+                    android:background="#00000000"
+                    android:gravity="start"
+                    android:padding="14dp"
+                    android:layout_alignParentBottom="true" />
+
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/food2"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="190dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="#FFFFFF"
+                android:layout_margin="20dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Salmon Sushi"
+                    android:textSize="25sp"
+                    android:fontFamily="sans-serif-light"
+                    android:padding="25dp"/>
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Salmon, carrot rolls, spinach and some sauce."
+                    android:gravity="start"
+                    android:background="#00000000"
+                    android:padding="14dp"
+                    android:layout_alignParentBottom="true" />
+
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/food3"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="190dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="#FFFFFF"
+                android:layout_margin="20dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Avocado Salad"
+                    android:textSize="25sp"
+                    android:fontFamily="sans-serif-light"
+                    android:padding="25dp"/>
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fresh hamburger with chicken, salad, tomatoes."
+                    android:background="#00000000"
+                    android:gravity="start"
+                    android:padding="14dp"
+                    android:layout_alignParentBottom="true" />
+
+
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/food4"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>
